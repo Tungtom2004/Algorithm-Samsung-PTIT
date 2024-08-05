@@ -15,5 +15,5 @@ int main(){
 		cin >> l >> r;
 		cout << kq[r] - kq[l - 1] << endl;
 	}
-    return 0;
 }
+

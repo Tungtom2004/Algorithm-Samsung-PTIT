@@ -51,11 +51,3 @@ int main() {
     }
     return 0;
 }
-/*Giả sử N!=a^x.b^y.c^z. R
-K = a^x1.b^x2.c^x3 --> K^M = a^Mx1.b^Mx2.c^Mx3
-Để N! chia hết cho K^M thì Mx1<=x, Mx2<=y, Mx3<=z
--->M<=x1/x1, M<=y/x2, M<=z/3
-M nguyên--> M<=[
--->M <= min([x1/x1],[y/x2], [z/x3])
-Dấu bằng xảy ra M đạt GTLN = min([x1/x1],[y/x2], [z/x3])
-*/
